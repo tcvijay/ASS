@@ -1,2 +1,0 @@
-# ASS
-for Program
