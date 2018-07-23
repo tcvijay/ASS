@@ -1,4 +1,4 @@
-package com.Rabobank.util;
+package com.rabobank.util;
 
 import java.math.BigDecimal;
 
