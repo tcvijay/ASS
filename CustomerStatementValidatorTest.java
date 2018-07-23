@@ -1,4 +1,4 @@
-package com.Rabobank.util;
+package com.rabobank.util;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 
 import org.junit.Test;
-import com.Rabobank.wrapper.CutomerStatementDetails;
+import com.rabobank.wrapper.CutomerStatementDetails;
 
 public class CustomerStatementValidatorTest {
 	CustomerStatementValidator cVal = new CustomerStatementValidator();
