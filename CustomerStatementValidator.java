@@ -1,4 +1,4 @@
-package com.Rabobank.util;
+package com.rabobank.util;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -15,7 +15,7 @@ public class CustomerStatementValidator {
 
 	public static void main(String[] args) {
 		Vector<CutomerStatementDetails> errorRecords;
-		//Reading the file
+		//Reading the file 
 		errorRecords = readData("records.csv");
 		if(errorRecords.size()>0)
 			printErrorRecords(errorRecords);
